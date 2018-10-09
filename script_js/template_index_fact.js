@@ -13,7 +13,7 @@ class Index extends React.Component {
          headers: new Headers()
         }
      
-        fetch('https://api-member.mello.me/get_all_profile?from=0&size=10&email_verify=0',fact_data)
+        fetch('',fact_data)
        // fetch('https://randomuser.me/api/?results=5',fact_data)
         .then((response) => response.json())
         .then((result)=>{  
